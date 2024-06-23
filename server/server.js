@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const apiKey = "AIzaSyA5QCRh3NIKn_q30gukQD1z21Lq_9wmHH0"; // Replace with your actual API key
+const apiKey = "Your API KEY"; // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
